@@ -14,7 +14,7 @@ services:
       - "5002:5002" # TODO 2: Chuyển tiếp cổng 5002 vào 5002
     environment:
       - FLASK_ENV=development
-      - API_TOKEN=23f47d079cfa764a3348dc79798ce61b817cece6a80e51836eb9c30709c6f2bb # TODO 3: Nhập API_KEY từ Together AI
+      - API_TOKEN=None# TODO 3: Nhập API_KEY từ Together AI
     networks:
       - my_network
 
